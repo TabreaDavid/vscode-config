@@ -1,0 +1,104 @@
+{ 
+    //====Vanilla vscode config====
+    "workbench.sideBar.location": "right",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.glyphMargin": false,
+    "editor.folding": false,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 300,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.activityBar.location": "top",
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": false,
+    "terminal.integrated.fontWeight": "550",
+    "workbench.editor.empty.hint": "hidden",
+    "window.commandCenter": false,
+    "window.density.editorTabHeight": "compact",
+    "workbench.localHistory.enabled": false,
+    "editor.find.history": "never",
+    "workbench.commandPalette.history": 0,
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+    
+    "editor.letterSpacing": 0.35,
+    "breadcrumbs.enabled": false,
+    "window.zoomLevel": 0.5,
+    "editor.cursorBlinking": "solid",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.fontSize": 13,
+    "editor.tabSize": 2,
+    "editor.smoothScrolling": true,
+    "files.exclude": {
+            "**/.DS_Store": false,
+            "**/.git": false,
+            "**/.svn": false
+        },
+    //
+    
+
+  
+    //====Other extensions settings====
+
+    //Theme, Font, Icon theme, Product theme
+    "workbench.colorTheme": "Cursor Theme",
+    "workbench.iconTheme": "symbols", 
+    "symbols.hidesExplorerArrows": true,
+    "terminal.integrated.fontFamily": "Jetbrains Mono", 
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontLigatures": true,
+    "workbench.productIconTheme": "jetbrains-product-icon-theme", 
+
+    //
+    
+    //Programming languages extension packs
+    "python.createEnvironment.trigger": "off",
+    //
+
+    "errorLens.delay": 333, //errorlens
+    
+    //github copilot
+    "github.copilot.enable": { 
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    //
+
+    //prettier
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    //
+    
+
+    //====OS specific settings====
+
+    //macOS
+    /*"custom-ui-style.electron": { //remove window buttons (for small screens)
+        "titleBarStyle": "hidden",
+        "trafficLightPosition": {
+            "x": -100,
+            "y": -100
+        }
+    },
+    "workbench.fontAliasing": "antialiased",
+    "window.titleBarStyle": "native",
+    "chat.commandCenter.enabled": false, 
+    "window.customTitleBarVisibility": "never",
+    */
+
+
+    //windows
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)", 
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+
+}
