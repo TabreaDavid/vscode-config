@@ -52,53 +52,7 @@
 
     //
     
-    //Programming languages extension packs
-    "python.createEnvironment.trigger": "off",
-    //
-
     "errorLens.delay": 333, //errorlens
     
-    //github copilot
-    "github.copilot.enable": { 
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
-    },
-    "github.copilot.nextEditSuggestions.enabled": true,
-    //
-
-    //prettier
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    //
-    
-
-    //====OS specific settings====
-
-    //macOS
-    /*"custom-ui-style.electron": { //remove window buttons (for small screens)
-        "titleBarStyle": "hidden",
-        "trafficLightPosition": {
-            "x": -100,
-            "y": -100
-        }
-    },
-    "workbench.fontAliasing": "antialiased",
-    "window.titleBarStyle": "native",
-    "chat.commandCenter.enabled": false, 
-    "window.customTitleBarVisibility": "never",
-    */
-
-
-    //windows
-    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)", 
-    "security.allowedUNCHosts": [
-        "wsl.localhost"
-    ],
 
 }
